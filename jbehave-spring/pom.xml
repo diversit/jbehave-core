@@ -8,6 +8,7 @@
     <artifactId>jbehave-spring</artifactId>
     <name>JBehave Spring</name>
     <description>Extension of JBehave Core that supports Spring dependency injection</description>
+    <version>3.9.spring-fix</version>
 
     <properties>
         <spring.version>3.1.1.RELEASE</spring.version>
@@ -17,7 +18,7 @@
         <dependency>
             <groupId>org.jbehave</groupId>
             <artifactId>jbehave-core</artifactId>
-            <version>${project.version}</version>
+            <version>${project.parent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
